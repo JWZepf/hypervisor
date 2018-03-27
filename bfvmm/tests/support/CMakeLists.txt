@@ -30,3 +30,9 @@ do_test(test_support
     SOURCES arch/intel_x64/test_support.cpp
     ${ARGN}
 )
+
+# ------------------------------------------------------------------------------
+# Install
+# ------------------------------------------------------------------------------
+
+install(DIRECTORY ../../include/support/ DESTINATION include/bfvmm/support)
